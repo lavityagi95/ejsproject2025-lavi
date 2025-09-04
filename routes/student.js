@@ -20,4 +20,5 @@ router.get('/edit/student/page/:_id', (req, res) => {
 router.post('/edit/student/:_id', (req, res) => {
     StudentController.editStudent(req, res)
 })
+
 module.exports = router;
